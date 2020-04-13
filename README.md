@@ -6,10 +6,11 @@ Minimal testing performed. Feel free to submit issues/PRs.
 
 ## Config
 
-| Setting | Options |  
-| Face | Default, Berets |  
-| Legs | Default, Sticky |  
-| Shirts | Default, Busty |
+Setting | Options
+--- | ---
+Face | Default, Berets
+Legs | Default, Sticky
+Shirts | Default, Busty
 
 ## Known Issues
 
