@@ -1,0 +1,74 @@
+{
+    "Format": "1.13.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Characters/Farmer/farmer_girl_base",
+            "FromFile": "assets/farmer_girl_base.png",
+            "LogName": "loadFarmerGirlBase"
+        },
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/shadow",
+            "FromFile": "assets/shadow.png",
+            "LogName": "loadShadow"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Farmer/farmer_girl_base",
+            "FromFile": "assets/overlays/berets_face.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "Face": "Beret"
+            },
+            "LogName": "editBeretsFace"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Farmer/farmer_girl_base",
+            "FromFile": "assets/overlays/sticky_legs.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "Legs": "Sticky"
+            },
+            "LogName": "editStickyLegs"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Farmer/shirts",
+            "FromFile": "assets/overlays/shirts/shirts.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "Shirts": "Default"
+            },
+            "LogName": "editShirts"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/Farmer/shirts",
+            "FromFile": "assets/overlays/shirts/shirts_busty.png",
+            "PatchMode": "Overlay",
+            "When": {
+                "Shirts": "Busty"
+            },
+            "LogName": "editBustyShirts"
+        }
+    ],
+    "ConfigSchema": {
+        "Face": {
+            "AllowValues": "Default, Beret",
+            "Default": "Default",
+            "AllowBlank": true
+        },
+        "Legs": {
+            "AllowValues": "Default, Sticky",
+            "Default": "Default",
+            "AllowBlank": true
+        },
+        "Shirts": {
+            "AllowValues":"Default, Busty",
+            "Default": "Default",
+            "AllowBlank": true
+        }
+    }
+}

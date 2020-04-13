@@ -1,0 +1,12 @@
+{
+    "Name": "Alex_01's Feminine Female Farmer",
+    "Author": "telmer6",
+    "Version": "2.0.0",
+    "Description": "Alex_01's farmer sprite overhaul, updated to work with Content Patcher and newer versions of SDV.",
+    "UniqueID": "telmer6.feminineFemaleFarmer",
+    "MinimumApiVersion": "3.0.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "1.0.0"
+    }
+}
