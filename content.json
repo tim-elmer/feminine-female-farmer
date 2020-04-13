@@ -36,8 +36,8 @@
         {
             "Action": "EditImage",
             "Target": "Characters/Farmer/shirts",
-            "FromFile": "assets/overlays/shirts/shirts.png",
-            "PatchMode": "Overlay",
+            "FromFile": "assets/shirts/shirts.png",
+            "PatchMode": "Replace",
             "When": {
                 "Shirts": "Default"
             },
@@ -46,8 +46,8 @@
         {
             "Action": "EditImage",
             "Target": "Characters/Farmer/shirts",
-            "FromFile": "assets/overlays/shirts/shirts_busty.png",
-            "PatchMode": "Overlay",
+            "FromFile": "assets/shirts/shirts_busty.png",
+            "PatchMode": "Replace",
             "When": {
                 "Shirts": "Busty"
             },
