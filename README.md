@@ -42,4 +42,4 @@ The `StardewFFFBody.aco` file is a color pallet for commonly used colors in the 
 
 ### shirts.psd
 
-It's literally just three layers, with the normal and busty replacements separated out. Male shirts have been masked off.
+It's literally just four layers, with the normal and busty replacements separated out. Male shirts have been masked off. The overlay layer is used to lengthen side shirts by a pixel.
