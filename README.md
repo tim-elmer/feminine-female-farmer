@@ -12,9 +12,9 @@ You'll need [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400) and [Cont
 
 Setting | Options
 --- | ---
-Face | Default, Berets
-Legs | Default, Sticky
-Shirts | Default, Busty
+`Face` | `Default`, `Berets`
+`Legs` | `Default`, `Sticky`
+`Shirts` | `Default`, `Busty`
 
 Like most SMAPI mods, there is no included config file, you'll need to run the game with the mod installed once to generate it. Once that's done, you'll have a `config.json` file in your mods folder (probably something like `C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\FeminineFemaleFarmer\config.json`). 
 
