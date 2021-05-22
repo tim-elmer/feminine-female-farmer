@@ -4,6 +4,10 @@ Based on [Alex_01's Feminine Female Farmer](https://www.nexusmods.com/stardewval
 
 Minimal testing performed. Feel free to submit issues/PRs.
 
+## Requirements
+
+You'll need [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400) and [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915).
+
 ## Config
 
 Setting | Options
@@ -11,6 +15,10 @@ Setting | Options
 Face | Default, Berets
 Legs | Default, Sticky
 Shirts | Default, Busty
+
+Like most SMAPI mods, there is no included config file, you'll need to run the game with the mod installed once to generate it. Once that's done, you'll have a `config.json` file in your mods folder (probably something like `C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods\FeminineFemaleFarmer\config.json`). 
+
+In _that_ file, you'll see a series of "keys" and corresponding "values" (e.g., `"Key": "Value"`). Change the desired setting _value_ to one of the options listed above and restart the game.
 
 ## Known Issues
 
