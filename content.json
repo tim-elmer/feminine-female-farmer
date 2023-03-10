@@ -1,14 +1,14 @@
 {
-    "Format": "1.13.0",
+    "Format": "1.28.0",
     "Changes": [
         {
-            "Action": "Load",
+            "Action": "EditImage",
             "Target": "Characters/Farmer/farmer_girl_base",
             "FromFile": "assets/farmer_girl_base.png",
             "LogName": "loadFarmerGirlBase"
         },
         {
-            "Action": "Load",
+            "Action": "EditImage",
             "Target": "LooseSprites/shadow",
             "FromFile": "assets/shadow.png",
             "LogName": "loadShadow"
